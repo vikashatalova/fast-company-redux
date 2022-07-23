@@ -17,7 +17,8 @@ const initialState = localStorageService.getAccessToken() ? {
     entities: null,
     isloading: false,
     error: null,
-    auth: { userId: localStorageService.getUserId() },
+    // auth: { userId: localStorageService.getUserId() },
+    auth: null,
     isLoggedIn: false,
     dataLoaded: false
 };
